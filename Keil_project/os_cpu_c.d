@@ -1,0 +1,9 @@
+os_cpu_c.o: ..\uCOS-II_files\Ports\os_cpu_c.c
+os_cpu_c.o: ..\uCOS-II_files\Source\ucos_ii.h
+os_cpu_c.o: ..\Application\app_cfg.h
+os_cpu_c.o: ..\Application\os_cfg.h
+os_cpu_c.o: ..\uCOS-II_files\Ports\os_cpu.h
+os_cpu_c.o: ..\uC-Library_files\lib_def.h
+os_cpu_c.o: ..\uC-CPU_files\cpu_def.h
+os_cpu_c.o: ..\uC-CPU_files\cpu.h
+os_cpu_c.o: ..\Application\cpu_cfg.h

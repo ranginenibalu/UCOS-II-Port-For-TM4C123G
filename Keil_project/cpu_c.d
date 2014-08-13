@@ -1,0 +1,11 @@
+cpu_c.o: ..\uC-CPU_files\cpu_c.c
+cpu_c.o: ..\uC-CPU_files\cpu.h
+cpu_c.o: ..\uC-CPU_files\cpu_def.h
+cpu_c.o: ..\Application\cpu_cfg.h
+cpu_c.o: ..\uC-CPU_files\cpu_core.h
+cpu_c.o: ..\uC-Library_files\lib_def.h
+cpu_c.o: ..\uC-Library_files\lib_mem.h
+cpu_c.o: ..\uC-CPU_files\cpu_core.h
+cpu_c.o: ..\Application\lib_cfg.h
+cpu_c.o: ..\uC-Library_files\lib_str.h
+cpu_c.o: ..\uC-Library_files\lib_ascii.h

@@ -1,0 +1,12 @@
+lib_math.o: ..\uC-Library_files\lib_math.c
+lib_math.o: ..\uC-Library_files\lib_math.h
+lib_math.o: ..\uC-CPU_files\cpu.h
+lib_math.o: ..\uC-CPU_files\cpu_def.h
+lib_math.o: ..\Application\cpu_cfg.h
+lib_math.o: ..\uC-CPU_files\cpu_core.h
+lib_math.o: ..\uC-Library_files\lib_def.h
+lib_math.o: ..\uC-Library_files\lib_mem.h
+lib_math.o: ..\uC-CPU_files\cpu_core.h
+lib_math.o: ..\Application\lib_cfg.h
+lib_math.o: ..\uC-Library_files\lib_str.h
+lib_math.o: ..\uC-Library_files\lib_ascii.h

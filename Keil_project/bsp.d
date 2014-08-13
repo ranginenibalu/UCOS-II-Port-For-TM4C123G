@@ -1,0 +1,17 @@
+bsp.o: ..\Board_Support_Package\bsp.c
+bsp.o: ..\Board_Support_Package\bsp.h
+bsp.o: ..\uCOS-II_files\Source\os.h
+bsp.o: ..\uCOS-II_files\Source\ucos_ii.h
+bsp.o: ..\Application\app_cfg.h
+bsp.o: ..\Application\os_cfg.h
+bsp.o: ..\uCOS-II_files\Ports\os_cpu.h
+bsp.o: ..\Board_Support_Package\bsp_sys.h
+bsp.o: ..\uC-CPU_files\cpu.h
+bsp.o: ..\uC-CPU_files\cpu_def.h
+bsp.o: ..\Application\cpu_cfg.h
+bsp.o: ..\Board_Support_Package\bsp_led.h
+bsp.o: ..\Board_Support_Package\bsp_int.h
+bsp.o: ..\Board_Support_Package\bsp_sw.h
+bsp.o: ..\Board_Support_Package\bsp_uart.h
+bsp.o: ..\Board_Support_Package\bsp_pir_sensor.h
+bsp.o: ..\uCOS-II_files\Source\os.h

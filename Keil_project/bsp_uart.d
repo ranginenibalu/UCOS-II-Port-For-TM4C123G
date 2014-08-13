@@ -1,0 +1,12 @@
+bsp_uart.o: ..\Board_Support_Package\bsp_uart.c
+bsp_uart.o: ..\uC-Library_files\lib_def.h
+bsp_uart.o: ..\uC-CPU_files\cpu_def.h
+bsp_uart.o: ..\uC-CPU_files\cpu.h
+bsp_uart.o: ..\Application\cpu_cfg.h
+bsp_uart.o: ..\Board_Support_Package\bsp_uart.h
+bsp_uart.o: ..\Board_Support_Package\bsp.h
+bsp_uart.o: ..\uCOS-II_files\Source\os.h
+bsp_uart.o: ..\uCOS-II_files\Source\ucos_ii.h
+bsp_uart.o: ..\Application\app_cfg.h
+bsp_uart.o: ..\Application\os_cfg.h
+bsp_uart.o: ..\uCOS-II_files\Ports\os_cpu.h

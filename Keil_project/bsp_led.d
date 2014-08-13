@@ -1,0 +1,17 @@
+bsp_led.o: ..\Board_Support_Package\bsp_led.c
+bsp_led.o: ..\uC-Library_files\lib_def.h
+bsp_led.o: ..\uC-CPU_files\cpu_def.h
+bsp_led.o: ..\uC-CPU_files\cpu.h
+bsp_led.o: ..\Application\cpu_cfg.h
+bsp_led.o: ..\Board_Support_Package\bsp.h
+bsp_led.o: ..\uCOS-II_files\Source\os.h
+bsp_led.o: ..\uCOS-II_files\Source\ucos_ii.h
+bsp_led.o: ..\Application\app_cfg.h
+bsp_led.o: ..\Application\os_cfg.h
+bsp_led.o: ..\uCOS-II_files\Ports\os_cpu.h
+bsp_led.o: ..\Board_Support_Package\bsp_led.h
+bsp_led.o: ..\Board_Support_Package\bsp_sys.h
+bsp_led.o: ..\Board_Support_Package\bsp_uart.h
+bsp_led.o: ..\uC-Library_files\lib_str.h
+bsp_led.o: ..\uC-Library_files\lib_ascii.h
+bsp_led.o: ..\Application\lib_cfg.h

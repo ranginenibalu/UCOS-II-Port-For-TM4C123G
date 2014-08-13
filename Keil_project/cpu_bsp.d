@@ -1,0 +1,12 @@
+cpu_bsp.o: ..\Board_Support_Package\cpu_bsp.c
+cpu_bsp.o: ..\uC-CPU_files\cpu_core.h
+cpu_bsp.o: ..\uC-CPU_files\cpu.h
+cpu_bsp.o: ..\uC-CPU_files\cpu_def.h
+cpu_bsp.o: ..\Application\cpu_cfg.h
+cpu_bsp.o: ..\uC-Library_files\lib_def.h
+cpu_bsp.o: ..\uC-Library_files\lib_mem.h
+cpu_bsp.o: ..\uC-CPU_files\cpu_core.h
+cpu_bsp.o: ..\Application\lib_cfg.h
+cpu_bsp.o: ..\uC-Library_files\lib_str.h
+cpu_bsp.o: ..\uC-Library_files\lib_ascii.h
+cpu_bsp.o: ..\Board_Support_Package\bsp_sys.h

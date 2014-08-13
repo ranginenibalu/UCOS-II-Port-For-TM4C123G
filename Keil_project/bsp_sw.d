@@ -1,0 +1,13 @@
+bsp_sw.o: ..\Board_Support_Package\bsp_sw.c
+bsp_sw.o: ..\uC-CPU_files\cpu.h
+bsp_sw.o: ..\uC-CPU_files\cpu_def.h
+bsp_sw.o: ..\Application\cpu_cfg.h
+bsp_sw.o: ..\Board_Support_Package\bsp.h
+bsp_sw.o: ..\uCOS-II_files\Source\os.h
+bsp_sw.o: ..\uCOS-II_files\Source\ucos_ii.h
+bsp_sw.o: ..\Application\app_cfg.h
+bsp_sw.o: ..\Application\os_cfg.h
+bsp_sw.o: ..\uCOS-II_files\Ports\os_cpu.h
+bsp_sw.o: ..\Board_Support_Package\bsp_sys.h
+bsp_sw.o: ..\uC-Library_files\lib_def.h
+bsp_sw.o: ..\Board_Support_Package\bsp_sw.h

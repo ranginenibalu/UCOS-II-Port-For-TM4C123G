@@ -1,0 +1,4 @@
+--cpu Cortex-M4 "app.o" "app_hooks.o" "bsp.o" "bsp_int.o" "bsp_led.o" "bsp_sys.o" "cpu_bsp.o" ".\startup_tm4c123.o" "bsp_sw.o" "bsp_uart.o" "bsp_pir_sensor.o" "lib_ascii.o" "lib_math.o" "lib_mem.o" ".\lib_mem_a.o" "lib_str.o" ".\cpu_a.o" "cpu_c.o" "cpu_core.o" "os_core.o" "os_flag.o" "os_mbox.o" "os_mem.o" "os_mutex.o" "os_q.o" "os_sem.o" "os_task.o" "os_time.o" "os_tmr.o" ".\os_cpu_a.o" "os_cpu_c.o" "os_dbg.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tm4c123-uCOSII-port.map" -o tm4c123-uCOSII-port.axf

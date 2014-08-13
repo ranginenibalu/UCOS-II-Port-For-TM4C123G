@@ -1,0 +1,11 @@
+lib_mem.o: ..\uC-Library_files\lib_mem.c
+lib_mem.o: ..\uC-Library_files\lib_mem.h
+lib_mem.o: ..\uC-CPU_files\cpu.h
+lib_mem.o: ..\uC-CPU_files\cpu_def.h
+lib_mem.o: ..\Application\cpu_cfg.h
+lib_mem.o: ..\uC-CPU_files\cpu_core.h
+lib_mem.o: ..\uC-Library_files\lib_def.h
+lib_mem.o: ..\uC-Library_files\lib_mem.h
+lib_mem.o: ..\uC-Library_files\lib_str.h
+lib_mem.o: ..\uC-Library_files\lib_ascii.h
+lib_mem.o: ..\Application\lib_cfg.h

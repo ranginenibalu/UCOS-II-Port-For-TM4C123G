@@ -1,0 +1,275 @@
+Dependencies for Project 'tm4c123-uCOSII-port', Target 'TI launchpad': (DO NOT MODIFY !)
+F (..\Application\app.c)(0x53D61219)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "app.o" --omf_browse "app.crf" --depend "app.d")
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\Board_Support_Package\bsp_led.h)(0x53D5EDAE)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+I (..\Board_Support_Package\bsp_sw.h)(0x53D34080)
+I (..\Board_Support_Package\bsp_uart.h)(0x53D5F028)
+I (..\Board_Support_Package\bsp_pir_sensor.h)(0x53D0BEFB)
+F (..\Application\app_cfg.h)(0x53D5DEE4)()
+F (..\Application\app_hooks.c)(0x53D5E89A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "app_hooks.o" --omf_browse "app_hooks.crf" --depend "app_hooks.d")
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\Application\bsp_cfg.h)(0x53CBF507)()
+F (..\Application\cpu_cfg.h)(0x53CBFE6A)()
+F (..\Application\lib_cfg.h)(0x53BC3B00)()
+F (..\Application\os_cfg.h)(0x53CC07DF)()
+F (..\Board_Support_Package\bsp.c)(0x53D6053D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp.o" --omf_browse "bsp.crf" --depend "bsp.d")
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp_led.h)(0x53D5EDAE)
+I (..\Board_Support_Package\bsp_int.h)(0x53D5EC99)
+I (..\Board_Support_Package\bsp_sw.h)(0x53D34080)
+I (..\Board_Support_Package\bsp_uart.h)(0x53D5F028)
+I (..\Board_Support_Package\bsp_pir_sensor.h)(0x53D0BEFB)
+F (..\Board_Support_Package\bsp.h)(0x53D6051C)()
+F (..\Board_Support_Package\bsp_int.c)(0x53D618B6)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_int.o" --omf_browse "bsp_int.crf" --depend "bsp_int.d")
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp_int.h)(0x53D5EC99)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\Board_Support_Package\bsp_led.h)(0x53D5EDAE)
+F (..\Board_Support_Package\bsp_int.h)(0x53D5EC99)()
+F (..\Board_Support_Package\bsp_led.c)(0x53D5ED57)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_led.o" --omf_browse "bsp_led.crf" --depend "bsp_led.d")
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp_led.h)(0x53D5EDAE)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+I (..\Board_Support_Package\bsp_uart.h)(0x53D5F028)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+F (..\Board_Support_Package\bsp_led.h)(0x53D5EDAE)()
+F (..\Board_Support_Package\bsp_sys.c)(0x53D5EEBF)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_sys.o" --omf_browse "bsp_sys.crf" --depend "bsp_sys.d")
+I (..\Application\bsp_cfg.h)(0x53CBF507)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+F (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)()
+F (..\Board_Support_Package\cpu_bsp.c)(0x53C8E437)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "cpu_bsp.o" --omf_browse "cpu_bsp.crf" --depend "cpu_bsp.d")
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+F (..\Board_Support_Package\startup_TM4C123.s)(0x53CC05A4)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123 --list ".\startup_TM4C123.lst" --xref -o ".\startup_TM4C123.o" --depend ".\startup_TM4C123.d")
+F (..\Board_Support_Package\bsp_sw.c)(0x53D5EF83)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_sw.o" --omf_browse "bsp_sw.crf" --depend "bsp_sw.d")
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\Board_Support_Package\bsp_sw.h)(0x53D34080)
+F (..\Board_Support_Package\bsp_sw.h)(0x53D34080)()
+F (..\Board_Support_Package\bsp_uart.c)(0x53D60BE3)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_uart.o" --omf_browse "bsp_uart.crf" --depend "bsp_uart.d")
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp_uart.h)(0x53D5F028)
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\Board_Support_Package\bsp_uart.h)(0x53D5F028)()
+F (..\Board_Support_Package\bsp_pir_sensor.h)(0x53D0BEFB)()
+F (..\Board_Support_Package\bsp_pir_sensor.c)(0x53D5F051)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "bsp_pir_sensor.o" --omf_browse "bsp_pir_sensor.crf" --depend "bsp_pir_sensor.d")
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\Board_Support_Package\bsp.h)(0x53D6051C)
+I (..\uCOS-II_files\Source\os.h)(0x53CCAE01)
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\Board_Support_Package\bsp_sys.h)(0x53D5EF0A)
+I (..\Board_Support_Package\bsp_pir_sensor.h)(0x53D0BEFB)
+F (..\uC-Library_files\lib_ascii.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "lib_ascii.o" --omf_browse "lib_ascii.crf" --depend "lib_ascii.d")
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+F (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)()
+F (..\uC-Library_files\lib_math.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "lib_math.o" --omf_browse "lib_math.crf" --depend "lib_math.d")
+I (..\uC-Library_files\lib_math.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+F (..\uC-Library_files\lib_math.h)(0x53BC3A88)()
+F (..\uC-Library_files\lib_mem.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "lib_mem.o" --omf_browse "lib_mem.crf" --depend "lib_mem.d")
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+F (..\uC-Library_files\lib_mem.h)(0x53BC3A88)()
+F (..\uC-Library_files\lib_mem_a.asm)(0x53BC3A88)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123 --list ".\lib_mem_a.lst" --xref -o ".\lib_mem_a.o" --depend ".\lib_mem_a.d")
+F (..\uC-Library_files\lib_str.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "lib_str.o" --omf_browse "lib_str.crf" --depend "lib_str.d")
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+F (..\uC-Library_files\lib_str.h)(0x53BC3A88)()
+F (..\uC-Library_files\lib_def.h)(0x53CD1469)()
+F (..\uC-CPU_files\cpu.h)(0x53BC3A88)()
+F (..\uC-CPU_files\cpu_a.asm)(0x53BC3A88)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123 --list ".\cpu_a.lst" --xref -o ".\cpu_a.o" --depend ".\cpu_a.d")
+F (..\uC-CPU_files\cpu_c.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "cpu_c.o" --omf_browse "cpu_c.crf" --depend "cpu_c.d")
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+F (..\uC-CPU_files\cpu_core.c)(0x53D5E7B3)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "cpu_core.o" --omf_browse "cpu_core.crf" --depend "cpu_core.d")
+I (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-Library_files\lib_mem.h)(0x53BC3A88)
+I (..\Application\lib_cfg.h)(0x53BC3B00)
+I (..\uC-Library_files\lib_str.h)(0x53BC3A88)
+I (..\uC-Library_files\lib_ascii.h)(0x53BC3A88)
+F (..\uC-CPU_files\cpu_core.h)(0x53BC3A4C)()
+F (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)()
+F (..\uCOS-II_files\Source\os.h)(0x53CCAE01)()
+F (..\uCOS-II_files\Source\os_core.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_core.o" --omf_browse "os_core.crf" --depend "os_core.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_flag.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_flag.o" --omf_browse "os_flag.crf" --depend "os_flag.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_mbox.c)(0x53BC3A88)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_mbox.o" --omf_browse "os_mbox.crf" --depend "os_mbox.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_mem.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_mem.o" --omf_browse "os_mem.crf" --depend "os_mem.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_mutex.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_mutex.o" --omf_browse "os_mutex.crf" --depend "os_mutex.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_q.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_q.o" --omf_browse "os_q.crf" --depend "os_q.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_sem.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_sem.o" --omf_browse "os_sem.crf" --depend "os_sem.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_task.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_task.o" --omf_browse "os_task.crf" --depend "os_task.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_time.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_time.o" --omf_browse "os_time.crf" --depend "os_time.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\os_tmr.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_tmr.o" --omf_browse "os_tmr.crf" --depend "os_tmr.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+F (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)()
+F (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)()
+F (..\uCOS-II_files\Ports\os_cpu_a.asm)(0x53BC3AC4)(--cpu Cortex-M4 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123 --list ".\os_cpu_a.lst" --xref -o ".\os_cpu_a.o" --depend ".\os_cpu_a.d")
+F (..\uCOS-II_files\Ports\os_cpu_c.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_cpu_c.o" --omf_browse "os_cpu_c.crf" --depend "os_cpu_c.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)
+I (..\uC-Library_files\lib_def.h)(0x53CD1469)
+I (..\uC-CPU_files\cpu_def.h)(0x53BC3A4C)
+I (..\uC-CPU_files\cpu.h)(0x53BC3A88)
+I (..\Application\cpu_cfg.h)(0x53CBFE6A)
+F (..\uCOS-II_files\Ports\os_dbg.c)(0x53BC3AC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections -I..\Application -I..\Board_Support_Package -I..\uC-CPU_files -I..\uC-Library_files -I..\uCOS-II_files\Ports -I..\uCOS-II_files\Source -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\TI\TM4C123  -DTM4C123GH6PM -o "os_dbg.o" --omf_browse "os_dbg.crf" --depend "os_dbg.d")
+I (..\uCOS-II_files\Source\ucos_ii.h)(0x53BC3AC4)
+I (..\Application\app_cfg.h)(0x53D5DEE4)
+I (..\Application\os_cfg.h)(0x53CC07DF)
+I (..\uCOS-II_files\Ports\os_cpu.h)(0x53BC3AC4)

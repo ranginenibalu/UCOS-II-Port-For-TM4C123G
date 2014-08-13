@@ -1,0 +1,50 @@
+*** Creating Trace Output File 'tm4c123-uCOSII-port.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"app.o"'
+### List of Objects: adding '"app_hooks.o"'
+### List of Objects: adding '"bsp.o"'
+### List of Objects: adding '"bsp_int.o"'
+### List of Objects: adding '"bsp_led.o"'
+### List of Objects: adding '"bsp_sys.o"'
+### List of Objects: adding '"cpu_bsp.o"'
+### List of Objects: adding '".\startup_tm4c123.o"'
+### List of Objects: adding '"bsp_sw.o"'
+### List of Objects: adding '"bsp_uart.o"'
+### List of Objects: adding '"bsp_pir_sensor.o"'
+### List of Objects: adding '"lib_ascii.o"'
+### List of Objects: adding '"lib_math.o"'
+### List of Objects: adding '"lib_mem.o"'
+### List of Objects: adding '".\lib_mem_a.o"'
+### List of Objects: adding '"lib_str.o"'
+### List of Objects: adding '".\cpu_a.o"'
+### List of Objects: adding '"cpu_c.o"'
+### List of Objects: adding '"cpu_core.o"'
+### List of Objects: adding '"os_core.o"'
+### List of Objects: adding '"os_flag.o"'
+### List of Objects: adding '"os_mbox.o"'
+### List of Objects: adding '"os_mem.o"'
+### List of Objects: adding '"os_mutex.o"'
+### List of Objects: adding '"os_q.o"'
+### List of Objects: adding '"os_sem.o"'
+### List of Objects: adding '"os_task.o"'
+### List of Objects: adding '"os_time.o"'
+### List of Objects: adding '"os_tmr.o"'
+### List of Objects: adding '".\os_cpu_a.o"'
+### List of Objects: adding '"os_cpu_c.o"'
+### List of Objects: adding '"os_dbg.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4 "app.o" "app_hooks.o" "bsp.o" "bsp_int.o" "bsp_led.o" "bsp_sys.o" "cpu_bsp.o" ".\startup_tm4c123.o" "bsp_sw.o" "bsp_uart.o" "bsp_pir_sensor.o" "lib_ascii.o" "lib_math.o" "lib_mem.o" ".\lib_mem_a.o" "lib_str.o" ".\cpu_a.o" "cpu_c.o" "cpu_core.o" "os_core.o" "os_flag.o" "os_mbox.o" "os_mem.o" "os_mutex.o" "os_q.o" "os_sem.o" "os_task.o" "os_time.o" "os_tmr.o" ".\os_cpu_a.o" "os_cpu_c.o" "os_dbg.o" 
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\tm4c123-uCOSII-port.map" -o tm4c123-uCOSII-port.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'tm4c123-uCOSII-port.axf'
+### ADS-LD Command File: 'tm4c123-uCOSII-port.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'tm4c123-uCOSII-port.lnp', Handle=0x00000250
+### Writing '.lnp' file
+### ADS-LD Command file 'tm4c123-uCOSII-port.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
